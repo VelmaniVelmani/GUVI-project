@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: url("https://wallpaperset.com/w/full/7/5/a/545589.jpg") no-repeat;
+    background-size: cover;
+    position: center;
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.lo-go{
+    font-size: 25px;
+    color: rgb(29, 151, 29);
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav-bar a{
+    position: relative;
+    font-size: 18px;
+    color:black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.nav-bar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: black;
+    transition: .4s;
+}
+.nav-bar a:hover::before{
+    width: 100%;
+}
+
+.nav-bar a img{
+    position:fixed;
+    content: '';
+    transition: 0s;
+}
+
+.b1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.b2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.div-regist{
+    margin: 0 auto;
+    font-size: 55px;
+    font-weight:700;
+    color: rgb(37, 151, 33);
+    background-color: rgb(61, 56, 31);
+    width: 500px;
+    height: 90px;
+}
+.div-form{
+    box-shadow: 16px 14px 20px rgb(44, 41, 41);
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 330px;
+    width: 500px;
+}
+
+.div-form-login{
+    margin: 0 auto;
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(37, 151, 33);
+    background-color: rgb(61, 56, 31);
+    width: 500px;
+    height: 90px;
+}
+.div-form-lo{
+    box-shadow: 16px 14px 20px rgb(44, 41, 41);
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 110px;
+    width: 500px;
+}
+.container > div{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    border: 1px solid;
+    box-shadow: 16px 14px 20px rgb(44, 41, 41);
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 16px 14px 20px rgb(44, 41, 41);
+    border-radius: 10px;
+}
+.head-profile{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.lo-go-profile{
+    font-size: 25px;
+    color: rgb(29, 151, 29);
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav-bar-profile a{
+    position: relative;
+    font-size: 18px;
+    color:black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.nav-bar-profile a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: black;
+    transition: .4s;
+}
+.nav-bar-profile a:hover::before{
+    width: 100%;
+}
+.nav-bar-profile a img{
+    position:fixed;
+    content: '';
+    transition: 0s;
+}
+.pro{
+    margin: 0 auto;
+    content: "User Profile";
+    font-weight: 600;
+    color: black;
+    height: 70px;
+    width: 400px; 
+    font-size: 50px;
+    justify-content: center;
+    box-shadow: 2px 7px 25px rgb(69, 24, 95);
+}
+.normal{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+}
+
+.a1{
+    margin: 0 auto;
+}
+.a2{
+    background-color: rgb(54, 38, 38);
+    color: white;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: 2px 7px 25px rgb(69, 24, 95);
+}
+
+.a2 b{
+    position: absolute;
+    padding: 13px 90px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+}
+.a3{
+    background-color: rgb(54, 38, 38);
+    color: white;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: 2px 7px 25px rgb(69, 24, 95);
+}
+
+.a3 b{
+    position: absolute;
+    padding: 13px 90px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+}
+.a4{
+    background-color: rgb(54, 38, 38);
+    color: white;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: 2px 7px 25px rgb(69, 24, 95);
+}
+
+.a4 b{
+    position: absolute;
+    padding: 13px 90px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+}
+.a5{
+    background-color: rgb(54, 38, 38);
+    color: white;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: 2px 7px 25px rgb(69, 24, 95);
+}
+
+.a5 b{
+    position: absolute;
+    padding: 13px 90px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+}
+.a6{
+    background-color: rgb(54, 38, 38);
+    color: white;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: 2px 7px 25px rgb(69, 24, 95);
+}
+
+.a6 b{
+    position: absolute;
+    padding: 13px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+}
